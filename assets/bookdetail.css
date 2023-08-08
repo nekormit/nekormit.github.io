@@ -213,6 +213,8 @@ Acknowledgement: Acknowledge the resources that you use here.
     }
     p.book-description {
         font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
         color: #fff;
         margin: 10px 30px;
         text-align: justify;
