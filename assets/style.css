@@ -112,6 +112,9 @@ section h1 a.header:active{
     text-decoration: line-through;
     color: red;
 }
+a.redirector {
+    color: white;
+}
 
 .slider-container {
 	padding: 2rem;
