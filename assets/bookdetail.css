@@ -211,8 +211,8 @@ Acknowledgement: Acknowledge the resources that you use here.
         margin-bottom: 20px;
     }
     .small-image {
-        width: 128px;
-        height: 200px;
+        width: 100px;
+        height: 160px;
         border: 8px solid #24262b;
         border-radius: 20px;
         margin: 10px;
