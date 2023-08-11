@@ -31,7 +31,7 @@ img.logo{
     height: 50%;
     position: relative;
     top: 5px;
-    left: 100px;
+    float: left;
 }
 a{
 	text-decoration: none;
@@ -125,22 +125,23 @@ ul{
 .nav-toggler span::after{
 	top: 6px;
 }
-@media(max-width: 1080px){
+@media(max-width: 996px){
     .nav-toggler{
     	display: flex;
     }
     .header .nav{
     	position: absolute;
-    	left:0;
+    	left: 100px;
     	top:100%;
     	width: 100%;
     	background-color: var(--color-1);
     	border-top: 1px solid rgba(255,255,255,0.2);
-    	opacity:0;
+    	opacity: 1;
     	visibility: hidden;
     }
     .header .nav ul li{
     	display: block;
+		
     	margin:0;
     }
     .header #nav-check:checked ~ .nav{
@@ -162,4 +163,5 @@ ul{
     	transform: rotate(-45deg);
     }
 }
+
 
